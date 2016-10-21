@@ -1,0 +1,21 @@
+.content {
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+.header {
+	text-align: center;
+}
+
+.one-half .firstcol {
+	float: left;
+}
+
+.one-half {
+	float: right;
+}
+
+.questionContainer {
+	height: 400px;
+}
