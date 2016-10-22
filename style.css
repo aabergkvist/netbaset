@@ -8,7 +8,7 @@
 	text-align: center;
 }
 
-.one-half.firstcol {
+.one-half .firstcol {
 	float: left;
 }
 
