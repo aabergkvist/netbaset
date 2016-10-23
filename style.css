@@ -8,7 +8,8 @@
 	text-align: center;
 }
 
-.one-half .firstcol {
+.one-half firstcol,
+#content > div:nth-child(1) {
 	float: left;
 }
 
