@@ -2,7 +2,7 @@ body{
 	margin:0px;
 }
 
-#logo{
+.logo{
 	background:#e0e0e0;
 	padding:20px 0px;
 
@@ -16,6 +16,10 @@ img#mainbanner{
 
 .questionHeader{
 	margin-bottom: 40px;
+	font-weight: 600;
+}
+
+.questinoHeader .qheader{
 	font-weight: 600;
 }
 
@@ -86,7 +90,7 @@ img#mainbanner{
 	width: 100%;
 }
 
-#buttongholder{
+#buttonholder{
 	padding: 40px 0px;
 	text-align: center;
 }
