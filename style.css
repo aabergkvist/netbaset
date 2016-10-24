@@ -1,3 +1,7 @@
+body{
+	margin:0px;
+}
+
 #content {
 	width: 60%;
 	margin: 0 auto;
@@ -28,11 +32,25 @@
 	background-color: #eee;
 }
 
+
+
 #content .one-half{
 	padding: 10px;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+
+	margin: 0px;
+}
+
+#content .questionContainer:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#content .questionContainer > div > textarea{
+	width: 100%;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) { 
