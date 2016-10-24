@@ -49,11 +49,13 @@ img#mainbanner{
 #questionContainer {
 	height: 400px;
 	padding: 20px 0px;
+}
+
+#questionContainer:not(:last-of-type){	
 	border-bottom: 1px solid rgba(0,0,0,.2);
 }
 
 #main {
-	width: 60%;
 	margin: 0 auto;
 	padding: 40px;
 	background-color: #eee;
@@ -86,6 +88,11 @@ img#mainbanner{
 
 #buttongholder{
 	padding: 40px 0px;
+	text-align: center;
+}
+
+#rightbutton{
+	width: auto;
 }
 
 #buttonholder input{
