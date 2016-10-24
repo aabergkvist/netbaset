@@ -2,15 +2,15 @@ body{
 	margin:0px;
 }
 
-#mainbanner{
+#logo{
 	background:#e0e0e0;
 	padding:20px 0px;
 
 	margin-bottom: 40px;
 }
 
-#mainbanner img{
-	200px;
+img#mainbanner{
+	with: 200px;
 	max-width: 100px;
 }
 
@@ -23,6 +23,10 @@ body{
 	color: rgba(0,0,0,.3);
 }
 
+.questionContainer{
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
 
 #content {
 	width: 60%;
@@ -80,6 +84,20 @@ body{
 	width: 100%;
 }
 
+#buttongholder{
+	padding: 40px 0px;
+}
+
+#buttonholder input{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footertext{
+	margin:0 5px;
+}
+
+
 /* Text area and text box - bootstrap-like  */
 
 .netigatetextarea,
@@ -132,6 +150,40 @@ body{
     -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+/* netigate button  */
+
+input[type='submit']{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+input[type='submit']:hover{
+	color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
 }
 
 /* Column Classes
