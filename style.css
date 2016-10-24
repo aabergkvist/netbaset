@@ -2,6 +2,28 @@ body{
 	margin:0px;
 }
 
+#mainbanner{
+	background:#e0e0e0;
+	padding:20px 0px;
+
+	margin-bottom: 40px;
+}
+
+#mainbanner img{
+	200px;
+	max-width: 100px;
+}
+
+.questionHeader{
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+
+.questionHeader .qdescription{
+	color: rgba(0,0,0,.3);
+}
+
+
 #content {
 	width: 60%;
 	margin: 0 auto;
@@ -12,8 +34,7 @@ body{
 	text-align: center;
 }
 
-.one-half firstcol,
-#content > div:nth-child(1) {
+.one-half {
 	float: left;
 }
 
@@ -23,6 +44,8 @@ body{
 
 #questionContainer {
 	height: 400px;
+	padding: 20px 0px;
+	border-bottom: 1px solid rgba(0,0,0,.2);
 }
 
 #main {
