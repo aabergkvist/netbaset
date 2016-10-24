@@ -1,10 +1,10 @@
-.content {
+#content {
 	width: 60%;
 	margin: 0 auto;
 }
 
 
-.header {
+#header {
 	text-align: center;
 }
 
@@ -17,11 +17,11 @@
 	float: right;
 }
 
-.questionContainer {
+#questionContainer {
 	height: 400px;
 }
 
-.main {
+#main {
 	width: 60%;
 	margin: 0 auto;
 	padding: 40px;
