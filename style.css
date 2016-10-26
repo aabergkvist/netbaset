@@ -26,6 +26,7 @@ img#mainbanner{
 .questionHeader{
 	margin-bottom: 40px;
 	font-weight: 600;
+	text-align: center;
 }
 
 .questinoHeader .qheader{
@@ -37,8 +38,8 @@ img#mainbanner{
 }
 
 .questionContainer{
-    padding: 20px 0px;
-    border-bottom: 1px solid rgba(0,0,0,.2);
+    padding: 80px 0px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
 }
 
 p.mheader{
