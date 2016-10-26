@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 
 
 body{
 	margin:0px;
-	font-family: 'Open Sans', sans-serif;
-
+	font-size: 16px;
 }
 
 .logo{
-	background:#e0e0e0;
+	background:#D8D8D8;
 	padding:20px 0px;
 
 	margin-bottom: 40px;
+	position: absolute;
+	left:0px;
+	top: 0px;
+	width: 100%;
+
 }
 
 img#mainbanner{
@@ -29,7 +33,7 @@ img#mainbanner{
 }
 
 .questionHeader .qdescription{
-	color: rgba(0,0,0,.3);
+	color: rgba(255,255,255,.6);
 }
 
 .questionContainer{
@@ -37,9 +41,16 @@ img#mainbanner{
     border-bottom: 1px solid rgba(0,0,0,.2);
 }
 
+p.mheader{
+
+		    font-size: 16px;
+			    font-weight: 400;
+}
+
 #content {
 	width: 60%;
 	margin: 0 auto;
+	padding-top: 100px;
 }
 
 
@@ -67,7 +78,15 @@ img#mainbanner{
 #main {
 	margin: 0 auto;
 	padding: 40px;
+	padding-top: 0px;
 	background-color: #eee;
+
+background: url(http://netigate.se/CSSGenerator2/adidasImages/rita-ora-x-adidas-originals-stan-smith.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+		    -o-background-size: cover;
+			    background-size: cover;
+	color: white;
 }
 
 
@@ -113,6 +132,11 @@ img#mainbanner{
 	margin:0 5px;
 }
 
+/*slider*/
+
+.ui-slider .ui-slider-range{
+	background:#35ace1;
+}
 
 /* Text area and text box - bootstrap-like  */
 
@@ -129,12 +153,12 @@ img#mainbanner{
     width: 100%;
     height: 34px;
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.42857143;
     color: #555;
     background-color: #fff;
     background-image: none;
-    border: 1px solid #ccc;
+	    border: 1px solid rgba(255,255,255,.5);
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
@@ -145,10 +169,8 @@ img#mainbanner{
 
 .netigatetextarea:focus,
 .netigatetexbox:focus {
-    border-color: #66afe9;
+    border-color: #35ace1;
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);	
 }
 
 /* netigate dropdown - bootstrap-like */
