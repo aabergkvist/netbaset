@@ -46,7 +46,8 @@ img#mainbanner{
 p.mheader{
 
 		    font-size: 16px;
-			    font-weight: 400;
+			font-weight: 600;
+	color: rgba(0,0,0,.8);
 }
 
 #content {
@@ -142,6 +143,8 @@ background: url(http://netigate.se/CSSGenerator2/adidasImages/rita-ora-x-adidas-
 a.footlink {
 		    color: #35ace1;
 	}
+span.qoption
+
 
 /* table */
 
@@ -149,10 +152,12 @@ table * {
 		    background: transparent;
 	}
 
+
 /*slider*/
 
 .ui-slider{
-	border:1px solid #35ace1; 	
+	background: transparent;
+		border:1px solid #35ace1; 	
 }
 
 .sliderTable span.qoption {
@@ -352,7 +357,8 @@ input[type='submit']:hover{
 	}
 
 	.mheader {
-		font-size: 16px;
+		
+			font-size: 16px;
 	}
 
 	.qheader {
